@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(255, 255, 255, 0.271);
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid #0000003c;
+}
+#overlay {
+    text-align: center;
+}
+
+#menu{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #c9c9c9;    
+    border-radius: 10%;
+}
+/* all the menu items */
+
+
+/* Menu */
+
+.visible {
+    visibility: visible;
+}
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+#infoSelect {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #c9c9c9;
+}
+#eventBuilt {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+
+#infomenu1 {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+/* settings info */
+#settingsInfo {
+    background-color: rgb(255, 255, 255);
+}
+
+#settingsInfo button img{
+    width: 50%;
+    height: 50%;
+}
+.event {
+    background-color: #e0e0e0;
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid #00000032;
+    text-align: left;
+}
+.event:hover {
+    background-color: #e7e7e7;
+}
+
+#menu-content {
+    border-bottom: 2px solid #000000;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+
+}
+  
+.menu li {
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.menu li a{
+    color: #000;
+    text-decoration: none;
+}
+.menu li:hover {
+    background-color: #e7e7e7;
+}
